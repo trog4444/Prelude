@@ -1,0 +1,5 @@
+﻿2019-06-20
+    -- divided Combinator and Common modules into submodules
+    -- removed and added various functions to Combinator and Common
+    -- optimized memo functions in Common
+    -- optimized some timing functions in Diagnostics
