@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>rogz</Authors>
+    <Company>rogz</Company>
+    <Description>Basic functions that can be used in a wide variety of applications. Based loosely on the `Haskell Prelude`.</Description>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>\netcoreapp3.1\Prelude.XML</DocumentationFile>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Revisions.txt" />
+    <None Include="ToDo.txt" />
+    <Compile Include="Combinator.fsi" />
+    <Compile Include="Combinator.fs" />
+    <Compile Include="Numeric.fsi" />
+    <Compile Include="Numeric.fs" />
+    <Compile Include="Sequence.fsi" />
+    <Compile Include="Sequence.fs" />
+    <Compile Include="Workflow.fsi" />
+    <Compile Include="Workflow.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+</Project>

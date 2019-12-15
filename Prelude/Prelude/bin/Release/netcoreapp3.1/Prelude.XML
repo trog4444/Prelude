@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Prelude</name></assembly>
+<members>
+<member name="M:Rogz.Prelude.Combinator.uncurrys3``4(Microsoft.FSharp.Core.FSharpFunc{System.ValueTuple{``0,``1,``2},``3},``0,``1,``2)">
+ <summary>Convert a function on a struct-tuple to a curried function.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.uncurrys``3(Microsoft.FSharp.Core.FSharpFunc{System.ValueTuple{``0,``1},``2},``0,``1)">
+ <summary>Convert a function on a struct-tuple to a curried function.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.uncurry3``4(Microsoft.FSharp.Core.FSharpFunc{System.Tuple{``0,``1,``2},``3},``0,``1,``2)">
+ <summary>Convert a function on a tuple to a curried function.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.uncurry``3(Microsoft.FSharp.Core.FSharpFunc{System.Tuple{``0,``1},``2},``0,``1)">
+ <summary>Convert a function on a tuple to a curried function.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.currys3``4(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``1,Microsoft.FSharp.Core.FSharpFunc{``2,``3}}},System.ValueTuple{``0,``1,``2})">
+ <summary>Apply a curried function to a struct-tuple.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.currys``3(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``1,``2}},System.ValueTuple{``0,``1})">
+ <summary>Apply a curried function to a struct-tuple.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.curry3``4(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``1,Microsoft.FSharp.Core.FSharpFunc{``2,``3}}},``0,``1,``2)">
+ <summary>Apply a curried function to a tuple.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.curry``3(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``1,``2}},``0,``1)">
+ <summary>Apply a curried function to a tuple.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.on``3(Microsoft.FSharp.Core.FSharpFunc{``0,``1},Microsoft.FSharp.Core.FSharpFunc{``1,Microsoft.FSharp.Core.FSharpFunc{``1,``2}},``0,``0)">
+ <summary>Apply the same inner function to two inputs and combine their results with the outer function.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.flip``3(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``1,``2}},``1,``0)">
+ <summary>Flip the first two arguments of a given function.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.fixc``2(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.FSharpFunc{``0,``1},Microsoft.FSharp.Core.FSharpFunc{``0,``1}},``0)">
+ <summary>Makes recursive functions out of non-recursive functions by providing a continuation function which can be applied to carry out computations.
+
+ This can be used in cases where some (sub)computations are repeated to drastically improve performance over `fix`.
+
+ Note that the continuation must be in tail-call position to guarantee constant stack space.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.fix``2(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.FSharpFunc{``0,``1},Microsoft.FSharp.Core.FSharpFunc{``0,``1}},``0)">
+ <summary>Makes recursive functions out of non-recursive functions by providing a continuation function which can be applied to carry out computations.
+
+ Note that the continuation must be in tail-call position to guarantee constant stack space.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.konst``2(``0,``1)">
+ <summary>Convert a value into a single argument function that ignores its argument.</summary>
+</member>
+<member name="M:Rogz.Prelude.Combinator.apply``3(Microsoft.FSharp.Core.FSharpFunc{``0,``1},Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``1,``2}})">
+ <summary>Provides for sequential application of functions which share an initial argument.
+
+ Applies an inner function to an input value, then applies an outer function to the original input and the result of the inner function.</summary>
+</member>
+<member name="T:Rogz.Prelude.Combinator">
+ <summary>Module containing function combinators.</summary>
+</member>
+<member name="M:Rogz.Prelude.Numeric.lcm``1(``0,``0)">
+ <summary>Least common multiple of two values.</summary>
+</member>
+<member name="M:Rogz.Prelude.Numeric.gcd``1(``0,``0)">
+ <summary>Greatest common denominator of two values.</summary>
+</member>
+<member name="M:Rogz.Prelude.Numeric.isOdd``1(``0)">
+ <summary>Returns true when the supplied input is odd.</summary>
+</member>
+<member name="M:Rogz.Prelude.Numeric.isEven``1(``0)">
+ <summary>Returns true when the supplied input is even.</summary>
+</member>
+<member name="T:Rogz.Prelude.Numeric">
+ <summary>Operations and types relating to numeric values.</summary>
+</member>
+<member name="M:Rogz.Prelude.Sequence.enumerate``1(Microsoft.FSharp.Core.FSharpFunc{System.Int32,``0},System.Int32,System.Int32)">
+ <summary>Generate a sequence using the given `producer`, iterating over numbers ranging (up or down) from `start` to `stop`.
+ This will always produce at least 1 result.</summary>
+</member>
+<member name="T:Rogz.Prelude.Sequence">
+ <summary>Generic functions on sequences.</summary>
+</member>
+<member name="T:Rogz.Prelude.Workflow.ChoiceBuilder">
+ <summary>Computation expression builder for the Choice(of2) type.</summary>
+</member>
+<member name="T:Rogz.Prelude.Workflow.ResultBuilder">
+ <summary>Computation expression builder for the Result type.</summary>
+</member>
+<member name="T:Rogz.Prelude.Workflow.OptionBuilder">
+ <summary>Computation expression builder for the Option and ValueOption types.</summary>
+</member>
+<member name="P:Rogz.Prelude.Workflow.choice">
+ <summary>Computation expression builder for the Choice(of2) type.</summary>
+</member>
+<member name="P:Rogz.Prelude.Workflow.result">
+ <summary>Computation expression builder for the Result type.</summary>
+</member>
+<member name="P:Rogz.Prelude.Workflow.option">
+ <summary>Computation expression builder for the Option and ValueOption types.</summary>
+</member>
+<member name="T:Rogz.Prelude.Workflow">
+ <summary>Computation expressions for standard types.</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,4 @@
+﻿-- Decide where to put Rational type
+-- Decide on what 'types' to Include
+-- Decide on AutoOpen-ness
+-- Decide on putting 'optimized' versions of some Seq functions (eg fold)

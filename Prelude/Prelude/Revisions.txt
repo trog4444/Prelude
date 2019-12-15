@@ -1,0 +1,11 @@
+﻿*** Commit
+2019-12-14
+    -- fixed Numeric module
+    -- commented out the 'Rational' type
+    -- added Workflows/Computation Expressions
+    -- made ALL modules AutoOpen
+
+2019-12-13
+    -- Created 'fresh' Prelude -> many functions will be moved to separate libraries
+        -- starting at version 1.0.2.0
+    -- put in Combinator
