@@ -2,7 +2,6 @@
 
 
 /// <summary>Module containing function combinators.</summary>
-[<AutoOpen>]
 module Combinator =
 
     /// <summary>Provides for sequential application of functions which share an initial argument.

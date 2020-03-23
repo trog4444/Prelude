@@ -2,3 +2,11 @@
 -- Decide on what 'types' to Include
 -- Decide on AutoOpen-ness
 -- Decide on putting 'optimized' versions of some Seq functions (eg fold)
+-- Test fold efficiency
+-- Decide on moving 'curry/uncurry' to Tup instead of Combinator, or make a Curry(?Curr) static type in Combinator
+-- add Semigroupoid and Category to Typeclass.fsi sig file
+-- see note regarding static typeclasses with overloads (eg Num) instead of modules with free functions
+-^ as well as static Builders like Monad.seq | Monad.option | Monad.either etc
+-^^ this would reduce name collisions potentially and allow for members to be added to the
+    -^ static class as needed, rather than extending the entire module
+    -^? could it allow static type constraints?

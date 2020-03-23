@@ -2,7 +2,6 @@
 
 
 /// <summary>Operations and types relating to numeric values.</summary>
-[<AutoOpen>]
 module Numeric =
 
     /// <summary>Returns true when the supplied input is even.</summary>
@@ -36,6 +35,12 @@ module Numeric =
         and  ^num: (static member Abs: ^num -> ^num)
         and  ^num: equality
 
+    /// <summary>For integral types, returns how many whole times the first number can be divided by the second number./summary>
+    /// <exception cref="System.DivideByZeroException">Thrown when the second argument is zero.</exception>
+    val inline ( %/ ): x: ^num -> y: ^num -> ^num
+        when ^num: (static member ( - ): ^num -> ^num -> ^num)
+        and  ^num: (static member ( / ): ^num -> ^num -> ^num)
+        and  ^num: (static member ( % ): ^num -> ^num -> ^num)
 
     ///// <summary>Representation of exact rational numbers.</summary>
     //[<Struct>]

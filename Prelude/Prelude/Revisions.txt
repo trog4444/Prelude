@@ -1,4 +1,38 @@
-﻿*** Commit
+﻿*** Commit > 1.3.1.0
+
+
+%   >   1.3.1.0
+2020-01-23
+    -- added NoComparison and NoEquality to Ord
+    !! started adding Category and Semigroupoid to Typeclass
+    !! started trying static Num class instead of Num module -- would require overloads though
+
+%   >   1.3.0.0
+2020-01-08
+    -- added Typeclass module
+        -- [Eq, Ord, Show, Semigroup, Monoid]
+    -- added fold to Sequence
+    !- removed AutoOpen attributes
+
+%   >   1.2.0.0
+2020-01-07
+    -- renamed /% to %/ in Numerics
+    -- added tuple xchange methods to Tup
+
+%   >   1.1.0.1
+2019-12-29
+    -- removed AutoOpen attribute from Workflow module
+    -- added Zero to OptionBuilder(s) that didnt have it
+    -- added Using to builders that CAN have it
+    -- added AutoOpen BACK to Workflow to put it back in line with the other modules *in the spirit of a Prelude
+    -- added iterate and intersperse to Sequence
+
+2019-12-18
+    -- added FnBuilder to workflow
+    -- updated version to 1.1.0.0 because prior changes were breaking
+    -- added `Tuple`
+
+*** Commit
 2019-12-14
     -- fixed Numeric module
     -- commented out the 'Rational' type

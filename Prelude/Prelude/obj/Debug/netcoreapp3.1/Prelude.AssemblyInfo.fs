@@ -8,7 +8,7 @@ open System.Reflection
 
 
 [<assembly: System.Reflection.AssemblyCompanyAttribute("rogz")>]
-[<assembly: System.Reflection.AssemblyConfigurationAttribute("Release")>]
+[<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyDescriptionAttribute("Basic functions that can be used in a wide variety of applications. Based loosely on the `Haskell Prelude`.")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.1.0")>]
 [<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.1")>]

@@ -111,7 +111,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.2",
+    "version": "1.2.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\Tyler\\Documents\\GitHub\\Prelude\\Prelude\\Prelude\\Prelude.fsproj",
       "projectName": "Prelude",
@@ -144,7 +144,8 @@
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.7.0, )"
+            "version": "[4.7.0, )",
+            "generatePathProperty": true
           }
         },
         "imports": [
@@ -162,7 +163,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

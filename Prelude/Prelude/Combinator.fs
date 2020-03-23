@@ -1,7 +1,6 @@
 ﻿namespace Rogz.Prelude
 
 
-[<AutoOpen>]
 module Combinator =
 
     let inline apply inner (outer: ^a -> ^b -> ^c) a = outer a (inner a)

@@ -1,9 +1,9 @@
+C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.AssemblyInfoInputs.cache
+C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.AssemblyInfo.fs
 C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\bin\Release\netcoreapp3.1\Prelude.deps.json
 C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\bin\Release\netcoreapp3.1\Prelude.dll
 C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\bin\Release\netcoreapp3.1\Prelude.pdb
 C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\bin\Release\netcoreapp3.1\Prelude.XML
-C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.fsprojAssemblyReference.cache
-C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.AssemblyInfoInputs.cache
-C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.AssemblyInfo.fs
 C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.dll
 C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.pdb
+C:\Users\Tyler\Documents\GitHub\Prelude\Prelude\Prelude\obj\Release\netcoreapp3.1\Prelude.fsprojAssemblyReference.cache
